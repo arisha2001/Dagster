@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Dagst/__init__.py
+Dagst/assets.py
+Dagst.egg-info/PKG-INFO
+Dagst.egg-info/SOURCES.txt
+Dagst.egg-info/dependency_links.txt
+Dagst.egg-info/requires.txt
+Dagst.egg-info/top_level.txt
