@@ -1,6 +1,21 @@
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+[tool.poetry]
+name = "Dagst"
+version = "0.1.0"
+description = ""
+authors = ["Arina <arrishok@mail.ru>"]
+readme = "README.md"
 
-[tool.dagster]
-module_name = "Dagst"
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.5.3"
+setuptools = "^67.2.0"
+dagster = "^1.1.17"
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+
+
+
