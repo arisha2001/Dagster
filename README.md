@@ -7,4 +7,4 @@
 % poetry run dagit
 
 
-![Alt text](/Users/arina/Desktop/dagster_pipe.jpg  "data pipeline using Dagster")
+![My Image](/Users/arina/Desktop/dagster_pipe.jpg )
