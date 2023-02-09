@@ -1,8 +1,10 @@
-To run pipelines.py file it is necessary to run the command in terminal:
+1. Install required dependencies using poetry:
 
-%poetry install
+% poetry install
 
-to install required dependencies
-then run pipelines file using command:
+2. Start the Dagit process. This will start a Dagit web server that is served on http://localhost:3000 :
 
-%pipelines
+% poetry run dagit
+
+
+![Alt text](/Users/arina/Desktop/dagster_pipe.jpg  "data pipeline using Dagster")

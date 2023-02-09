@@ -1,9 +1,10 @@
 import pandas as pd
 from dagster import asset
 
+
 @asset
 def load_file() -> pd.DataFrame:
-    input_file = './data.csv'
+    input_file = './data/data.csv'
     df = pd.read_csv(input_file)
     return df
 
@@ -25,4 +26,4 @@ def normalize_file(load_file: pd.DataFrame) -> pd.DataFrame:
 @asset
 def save_file(normalize_file: pd.DataFrame) -> None:
     df = normalize_file
-    df.to_csv('./output.csv', index=False)
+    df.to_csv('./data/data_output.csv', index=False)
